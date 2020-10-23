@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "uigarage-app",
+  "alias": "uigarage-app",
+  "routes": [
+    {
+      "src": "/post/(?<slug>[^/]+)$",
+      "dest": "/post?slug=$slug"
+    }
+  ]
+}
